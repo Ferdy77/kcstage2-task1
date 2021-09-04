@@ -1,0 +1,368 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+main .nav-bar img {
+  position: absolute;
+  width: 100%;
+  margin: 15px auto;
+  height: 2rem;
+}
+
+header {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  background-image: url('./images/banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: white;
+}
+
+header .banner {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner .header-txt {
+  font-size: 6rem;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  padding: 50px 30px 0 0;
+}
+
+header .banner-txt {
+  background-color: white;
+  color: black;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.section2 {
+  width: 100%;
+  background-color: #d9b1b2;
+  display: flex;
+  justify-content: center;  
+  color: white;
+  padding: 60px 0;
+}
+
+.section2 .section2-wrap  {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 250px;
+}
+
+.section2 h3 {
+  font-style: italic;
+  font-family: 'playfair Display', serif;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.section2 span {
+  font-size: 4.5rem;
+}
+
+.section2-wrap p {
+  font-size: 1rem;
+  margin-right: 30%;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.flexbox-item {
+  width: 400px;
+  background-position: center middle;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.model-img-1, .model-img-2, .model-img-3, .model-img-4, .model-img-5, .model-img-6 {
+  min-height: 600px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.model-img-1 {
+  background-image: url(./images/gallery-1.jpeg);
+}
+
+.model-img-2 {
+  background-image: url(./images/gallery-2.jpeg);
+}
+
+.model-img-3 {
+  background-image: url(./images/gallery-3.jpeg);
+}
+
+.model-img-4 {
+  background-image: url(./images/gallery-4.jpeg);
+}
+
+.model-img-5 {
+  background-image: url(./images/gallery-5.jpeg);
+}
+
+.model-img-6 {
+  background-image: url(./images/gallery-6.jpeg);
+}
+
+.coming-soon {
+  width: 100%;
+  background-color: #d9b1b2;
+  padding: 90px 0;
+  color: white;
+}
+
+.coming-soon .coming-soon-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coming-soon h1 {
+  font-family: 'playfair Display', serif;
+  font-size: 4rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(221, 215, 215);
+}
+
+.contact-section input, button{
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px;
+}
+
+
+.contact-section input:focus {
+  outline: none;
+}
+
+.contact-section .update-btn {
+  padding: 0 30px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+
+.signature-section {
+  padding: 60px 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.signature-section .signature-image img {
+  height: 550px;
+  width: 400px;
+  margin-right: 50px;
+}
+
+.signature-section p {
+  margin-right: 25px;
+  text-align: justify;
+  padding: 40px 0;
+  font-size: 1.2rem;
+}
+
+.sign-image img {
+  width: 10px;
+}
+
+.accessories {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.accessories .spring-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.accessories h1 {
+  text-align: center;
+  font-size: 4.5rem;
+}
+.flexbox-pic {
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-right: 14px;
+}
+
+
+.accessory-1 {
+  background-image: url('./images/slide-1.jpg');
+}
+
+.accessory-2 {
+  background-image: url('./images/slide-2.jpg');
+}
+
+.accessory-3 {
+  background-image: url('./images/slide-3.jpg');
+}
+
+.accessory-4 {
+  background-image: url('./images/slide-4.jpg');
+}
+
+
+.right-arrow .arrow-img  {
+  display: flex;
+  height: 4rem;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.arrow-img img {
+  filter: grayscale(1) invert(1);
+}
+
+.product-sample {
+  width: 80%;  
+  margin: 40px auto;
+}
+
+.product-sample .product-pics {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-sample .product-pics img {
+  height: 400px;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.product-sample .right-corner {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.product-sample .right-corner h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+.product-sample .right-corner h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 10px;
+}
+
+.product-sample .right-corner p{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.product-sample .right-corner button {
+  padding: 15px 60px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.subs-area .sub-image img{
+  height: 110vh;
+  width: 50vw;
+}
+
+.subs-area {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.subs-area .sub-right {
+  text-align: center;
+  padding-top: 40px;
+  margin: 40px auto;
+}
+
+.subs-area .sub-right h1 {
+  font-size: 4.5rem;
+  font-style: italic;
+  font-family: 'playfair Display', serif;
+  margin-bottom: 50px;
+}
+
+.subs-area .sub-right p {
+  font-size: 1rem;
+}
+
+.subs-area .sub-right .sub-right-line {
+  margin-left: 40px;
+  width: 83%;
+  border-bottom: 10px solid #d9b1b2;
+}
+
+.subs-area .subs-form input {
+  border: 1px solid black;
+  border-radius: 0px;
+  padding: 15px 40px;
+  margin-right: 20px;
+}
+
+.subs-area .subs-form button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+
+.sub-right .para-container {
+  width: 62%;
+  margin: 30px auto;
+}
+
+.sub-right .para-container img {
+  height: 25px;
+}
+
+.sub-right .para-container ul {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.para-container li {
+  list-style-type: none;
+  margin-right: 25px;
+}
